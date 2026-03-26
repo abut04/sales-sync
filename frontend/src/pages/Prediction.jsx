@@ -52,7 +52,7 @@ function Prediction() {
       setConfidence(data.confidence);
     } catch (error) {
       console.error(error);
-      alert("Make sure Python backend is running.");
+      alert("Error connecting to server.");
     } finally {
       setLoading(false);
     }
